@@ -38,7 +38,74 @@
 .header__lang-link {
     text-decoration: none;
     color: #FFFFFF;
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 24px;
     line-height: 1.15;
+    background-image: linear-gradient(white, white);
+    background-size: 0 2px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-in-out;
+    }
+
+.header__lang-link:hover {
+    background-size: 100% 2px, auto;
+}
+/*
+.header__lang-link::after {
+    display: block;
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.header__lang-link:hover:after {
+    width: 100%;
+} */
+
+.lead {
+    max-width: 984px;
+    margin: 0 auto 96px;
+}
+
+.lead__title {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    margin: 0 auto 0;
+    max-width: 720px;
+}
+
+.lead__subtitle {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    margin: 32px auto 0 auto;
+    max-width: 640px;
+}
+
+.lead__image {
+    width: 100%;
+    margin-top: 64px;
+}
+
+.lead__caption {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: white;
+    text-align: start;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
