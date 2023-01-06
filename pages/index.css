@@ -2,17 +2,20 @@
 @import url(../vendor/fonts.css);
 
 .page{
+    margin: 0 auto;
+    padding: 0;
     width: 100%;
     background-color: #2A2C2F;
+    font-family: 'Inter', sans-serif;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    max-width: calc(100% - 92px);
+    max-width: 1148px;
+    width: calc(100% - 92px);
     margin: 0 auto 0;
     padding-top: 28px;
-    padding-bottom: 56px;
 }
 
 .header__logo {
@@ -68,7 +71,7 @@
 
 .lead {
     max-width: 984px;
-    margin: 0 auto 96px;
+    margin: 56px auto 96px;
 }
 
 .lead__title {
@@ -108,4 +111,53 @@
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+}
+
+.intro {
+    margin: 92px auto 0;
+    max-width: 984px;
+}
+
+.intro__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    color: white;
+    max-width: 690px;
+    margin: 0;
+}
+
+.intro__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    max-width: 690px;
+    margin-top: 40px;
+}
+
+.intro__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 690px;
+    margin-top: 33px;
+}
+
+.intro__list-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.intro__list-title {
+    font-weight: 700;
 }
