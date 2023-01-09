@@ -44,9 +44,12 @@
 }
 
 .header__logo {
+    transition: opacity .2s ease;
+}
+
+.header__logo-pic {
     width: 176px;
     height: 52px;
-    transition: opacity .2s ease;
 }
 
 @media screen and (max-width: 320px) {
@@ -58,6 +61,13 @@
 
 .header__logo:hover {
     opacity: 50%;
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo-pic {
+        width: 142px;
+        height: 42px;
+    }
 }
 
 .header__lang-list {
@@ -88,6 +98,13 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all .2s ease-in-out;
+    }
+
+@media screen and (max-width: 320px) {
+        .header__lang-link {
+            font-size: 18px;
+            line-height: 20px;
+        }
     }
 
 .header__lang-link:hover {
