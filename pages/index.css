@@ -227,19 +227,38 @@
 
 .photo-grid__item {
     max-width: 100%;
-    transition: transform 0.4s ease-in;
-    overflow: hidden;
 }
+
+/* transition: transform 0.4s ease-in;
+overflow: hidden;
 
 .photo-grid__item:hover {
     transform: scale(1.5);
     overflow: hidden;
-}
+} */
 
 .places {
     max-width: 984px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+      max-width: 928px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .places {
+      max-width: 720px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .places {
+      max-width: 720px;
+    }
+  }
 
 .place {
     display: grid;
