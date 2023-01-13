@@ -1,0 +1,25 @@
+.intro__list-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.intro__list-item:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__list-item {
+      max-width: 720px;
+    }
+}
+  
+  @media screen and (max-width: 767px) {
+    .intro__list-item {
+      max-width: 288px;
+    }
+}

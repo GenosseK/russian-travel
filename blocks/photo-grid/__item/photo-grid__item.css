@@ -1,0 +1,13 @@
+.photo-grid__item {
+    max-width: 100%;
+}
+
+@media (min-width: 1280px) {
+    .photo-grid__item {
+        transition: transform 0.4s ease-in;
+    }
+
+    .photo-grid__item:hover {
+        transform: scale(1.5);
+    }
+}
