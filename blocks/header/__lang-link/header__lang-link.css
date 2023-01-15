@@ -5,20 +5,16 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 1.15;
-    background-image: linear-gradient(white, white);
-    background-size: 0 2px, auto;
-    background-repeat: no-repeat;
-    background-position: center bottom;
     transition: all .2s ease-in-out;
-    }
+}
 
 @media screen and (max-width: 320px) {
-        .header__lang-link {
-            font-size: 18px;
-            line-height: 20px;
-        }
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
     }
+}
 
 .header__lang-link:hover {
-    background-size: 100% 2px, auto;
+    opacity: 0.8;
 }

@@ -1,5 +1,11 @@
 .header__logo {
     transition: opacity .2s ease;
+    background-image: url(../../../images/header-logo.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 52px;
 }
 
 @media screen and (max-width: 320px) {

@@ -9,7 +9,7 @@
     margin-top: 92px;
 }
 
-.place + .place {
+.place+.place {
     padding-top: 80px;
 }
 
@@ -34,7 +34,7 @@
         margin-top: 88px;
     }
 
-    .place + .place {
+    .place+.place {
         padding-top: 73px;
     }
 }
@@ -49,7 +49,7 @@
         margin-top: 64px;
     }
 
-    .place + .place {
+    .place+.place {
         padding-top: 50px;
     }
 }
